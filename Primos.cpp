@@ -14,7 +14,9 @@ bool esPrimo(int n) {
 }
 
 int main() {
-    cin>> int n ;
+    int n;
+    cin>>n;
+    
     for (int i = 1; i <= n; i++) {
         if (esPrimo(i))
             cout << i << " ";
